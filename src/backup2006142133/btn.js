@@ -1,9 +1,9 @@
-//import React from 'react';
-import './App.css';
 import React, { Component } from 'react';
 
 const array = [0, 1];
-class App extends React.Component {
+
+
+class fbtn extends React.Component {
     constructor(props) {
         super(props);
         this.state = { count: 1 };
@@ -33,6 +33,4 @@ class App extends React.Component {
     }
 }
 
-
-
-export default App;
+export default fbtn;
